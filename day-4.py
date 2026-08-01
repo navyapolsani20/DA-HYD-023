@@ -67,7 +67,7 @@ if(age >= 18):
     print("you have eligibility to vote",age)
 else:
     age = 18 - age
-    print("you need to wait for more",age,"years")"""
+    print("you need to wait for more",age,"years")
 #lets see only nested -->if,else
 age = int(input("enter your age:"))
 if(age > 0):
@@ -78,3 +78,54 @@ if(age > 0):
         print("you need to wait for more",age,"years")
 else:
     print("you entered negative values")
+marks=int(input("enter the marks:"))
+if(marks>90 and marks<100):
+        print("A")
+else:
+        if(marks>80 and marks<90):
+                print("B")
+        else:
+                if(marks>70 and marks<80):
+                        print("C")
+                else:
+                        
+                        if(marks>60 and marks<70):
+                                
+                                print("D")
+                        else:
+                                
+                                if(marks>50 and marks<60):
+                                        print("E")
+                                else:
+                                     print("Fail")
+#using if keyword
+marks = int(input("enter the marks : 1-100"))
+if(marks > 0 and marks <= 100):
+        if(marks>=90):
+                print("user has secured Grade A")
+        if(marks>=80 and marks<89):
+                print("user has secured Grade B")
+        if(marks>=70 and marks<79):
+                print("user has secured Grade C")
+        if(marks>=60 and marks<69):
+                print("user has secured Grade D")
+        if(marks<60):
+                print("user has failed again")
+else:
+        print("enter only +ve values greater than 0 and less than 100")"""
+#using if -else if keyword
+marks = int(input("enter the student marks"))
+if(marks >= 100):
+        print("entered values should be greater than 1 and less than 100") 
+elif(marks>=90 and marks<=100):
+        print("user has secured Grade A")
+elif(marks>=80 and marks<=89):
+        print("user has secured Grade B")
+elif(marks>=70 and marks<=79):
+        print("user has secured Grade C")
+elif(marks>=60 and marks<=69):
+        print("user has secured Grade D")
+elif(marks<60 and marks<=0):
+        print("user has failed,study again")
+else:
+        print("enter only +ve values greater than 0 and less than 100")        
