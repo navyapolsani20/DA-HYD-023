@@ -1,6 +1,6 @@
 #Grade Checker
 marks = int(input("enter the student marks :"))
-if(marks>0 marks>=100):
+if(marks>0 or marks>=100):
     print("Invalid Marks entered")
 elif(marks>=90 and marks<=100):
     print("Grade : A")
