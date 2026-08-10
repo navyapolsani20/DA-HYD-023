@@ -46,6 +46,7 @@ print("Total no of items ordered:",count)"""
 
 secret = "python"
 curr_attempt = 0
+prev_attempt = 0
 max_attempts = 3
 while curr_attempt < max_attempts:
     a = input()
@@ -53,11 +54,8 @@ while curr_attempt < max_attempts:
         print("access gained")
         break
     else:
-        remaining = max_attempts - curr_attempt
+        remaining = max_attempts - prev_attempt
         print(f'wrong guess and you have only {remaining} attempts')
         curr_attempt += 1
 else:
     print("chances over")
-              
-
-
