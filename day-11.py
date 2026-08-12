@@ -101,7 +101,7 @@ print("Navya rao".istitle())
 a = " navya "
 print(a.strip())
 b = input("enter the string:").strip().lower()
-print(b)"""
+print(b)
 #zfill  --> filling with zeroes as per the given numeric string
 print("234".zfill(6))
 print("78965".zfill(3))
@@ -110,7 +110,7 @@ print("78965".zfill(3))
 print("hi".center(6))
 print("hi".center(6,"#"))
 print("hi".ljust(6,"#"))
-print("hi".rjust(6,"%"))
+print("hi".rjust(6,"%"))"""
 
 
 

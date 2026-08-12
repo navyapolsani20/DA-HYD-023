@@ -39,14 +39,13 @@ while user_name != "exit":
     user_name = input("enter the string")"""
 
 #task-3
-
 print("-" * 80)
 print("STUDENT REPORT".center(80))
 print("-" * 80)
 
 for i in range(3):
-    student_name = list(map(str,input("Enter the name:" ).split(",")))
-    marks = list(map(int,input("Enter the marks: ").split(',')))
+    student_name = input("Enter the name:" )
+    marks = input("Enter the marks: ")
 
     if marks >= 80 and marks <= 100:
         grade = "A Grade"

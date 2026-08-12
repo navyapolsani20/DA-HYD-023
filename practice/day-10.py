@@ -54,8 +54,9 @@ while curr_attempt < max_attempts:
         print("access gained")
         break
     else:
-        remaining = max_attempts - prev_attempt
-        print(f'wrong guess and you have only {remaining} attempts')
         curr_attempt += 1
+        remaining = max_attempts - curr_attempt
+        print(f'wrong guess and you have only {remaining} attempts')
+        
 else:
     print("chances over")
