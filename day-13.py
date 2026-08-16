@@ -65,7 +65,7 @@ names.append(["analysis","agents"])
 #names[3].append("chatgpt")
 #print(names)
 #print(names[3].append("chatgpt"))#it returns none as append is applicable
-print(names)
+#print(names)
 
 #extend( )--> it also inserts multiple elements to the end of list
 """names.extend("analysis")
@@ -85,7 +85,7 @@ print(names)
 #names.insert([1:4],["a","b"])#invalid syntax
 #print(names)
 names.insert(-1,"AAA")
-print(names)"""
+print(names)
 
 #pop(),remove(),clear() -->
 #pop()-->by default last,else given index
@@ -104,7 +104,7 @@ names.clear()
 print(names)
 
 #data = ["codegnan","saketh","python","java"] #input
-#output should be as follows
+#output should be as follows"""
 '''
 0 : codegnan
 1 : saketh
@@ -112,7 +112,10 @@ print(names)
 3 : java
 
 '''
+data = ["codegnan", "saketh", "python", "java"]
 
+for i in range(len(data)):
+    print(str(i).ljust(0),":".center(5),data[i].rjust(5))
 
 
 
